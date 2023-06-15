@@ -96,16 +96,101 @@
 // ];
 
 // console.log(arr2.flat(2));
-const arr = ['March', 'Jan', 'Feb', 'Dec'];
-arr.sort(compareFn);
-function compareFn(a, b) {
-    if (a < b) {
-        return -1;
-    }
-    if (a > b) {
-        return 1;
-    }
-    // a must be equal to b
-    return 0;
-}
-console.log(arr);
+// const arr = ['March', 'Jan', 'Feb', 'Dec'];
+// arr.sort(compareFn);
+// function compareFn(a, b) {
+//     if (a < b) {
+//         return -1;
+//     }
+//     if (a > b) {
+//         return 1;
+//     }
+//     // a must be equal to b
+//     return 0;
+// }
+// console.log(arr);
+
+
+// console.log("hello");
+
+// let arr=[1,2,3,4];
+// console.log(arr.reverse());
+
+
+// let content = document.getElementById('content');
+
+// console.log(content.innerHTML);
+
+// console.log(content.innerText);
+
+// let form = document.querySelector(".testForm");
+// let inputPassword =document.querySelector(".inputPass");
+// let email=document.querySelector(".email");
+
+// let requiredPasswordPattern ="/^[A-Za-Z] {6,12}$/";
+
+// form.addEventListener("keyup",(e) =>{
+//     if(requiredPasswordPattern.test(e.inputPassword)){
+//         console.log("passed");
+//     }
+//     else{
+//         console.log("failed");
+//     }
+// });
+
+// form.addEventListener("submit", (e) =>{
+//     e.preventDefault();
+//     console.log(inputPassword.value)
+//     console.log("clicked");
+//     let password = inputPassword.value;
+//     let result =requiredPasswordPattern.match(password);
+
+//     if (result == true){
+//         console.log("your password validated successfully");
+//     }
+//     else{
+//         console.log("try again with new password");
+//     }
+// });
+
+
+// let admins = ['john', 'paul', 'Neha', 'harry'];
+// console.log(admins.slice(-2))
+
+//Ouput[('Neha', 'harry')];
+
+// const arr=[1,4,7,6,8];
+// console.log(arr.splice(2,4));
+// const arr=[1,4,7,6,8];
+// console.log(arr.splice(2,2))
+// console.log(arr);
+// arr.splice(1,3,14,15,16);
+// console.log(arr);
+
+// const arr = [1, 4, 7, 6, 8];
+// console.log(arr.slice(-2));
+
+// let nums=[1,2,3,4,5,6];
+// let updateArray = nums.map(e => e*2);
+// console.log(updateArray);
+
+// const arr = [10 ,40,70,60,80];
+// console.log(arr.filter(e=> e>75));
+
+
+// let nums = [2,3,5,6,8,6,4,8];
+// console.log(nums.reduce((acc,num)=>num+acc,0));
+
+// let nums = [1, 2, 4, 5, [6, [8]], [9, 0]];
+
+// let res1 = nums.flat(); //[1,2,4,5,6,[8],9,0]
+
+// let res2 = nums.flatMap((elem) => elem);
+
+// console.log(res1, res2);
+
+// let arr = [1, 2, 3, 4];
+// console.log(arr.splice(1,2));
+// let result = arr.splice(1, 2).pop();
+
+// console.log(result);
